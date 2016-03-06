@@ -1,8 +1,8 @@
 @define-mixin  clearfix {
   &::before,
   &::after {
-    display:table;
-    content: ' '
+    display: table;
+    content: ' ';
   }
 
   &::after {

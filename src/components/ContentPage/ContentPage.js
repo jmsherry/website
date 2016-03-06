@@ -28,7 +28,7 @@ class ContentPage extends Component {
   render() {
     this.context.onSetTitle(this.props.title);
     return (
-      <main className={s.root} dangerouslySetInnerHTML={{ __html: this.props.content || '' }} >
+      <main className="{s.root} col-sm-9" dangerouslySetInnerHTML={{ __html: this.props.content || '' }} >
       </main>
     );
   }
