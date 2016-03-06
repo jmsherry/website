@@ -21,7 +21,7 @@ class Feedback extends Component {
 
   render() {
     return (
-      <aside className="{s.root}  col-sm-3">
+      <aside className={`${s.root}  col-sm-3`}>
           <h1>Sidebar</h1>
           <Button bsStyle="primary">Primary</Button>
       </aside>

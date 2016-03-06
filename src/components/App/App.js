@@ -9,7 +9,7 @@
 
 import React, { Component, PropTypes } from 'react';
 import emptyFunction from 'fbjs/lib/emptyFunction';
-// import b from './../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+import './../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 import s from './App.scss';
 import Header from '../Header';
 import Sidebar from '../Sidebar';
