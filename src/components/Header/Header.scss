@@ -1,0 +1,77 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../variables.scss';
+
+$brand-color: #61dafb;
+
+.root {
+  background: #373277 url(http://images.inc.com/uploaded_files/image/1940x900/software-computer-code-1940x900_35196.jpg) no-repeat center/cover scroll;
+  color: #fff;
+  min-height: 300px;
+  border: 1px solid transparent;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  max-width: $max-content-width;
+}
+
+.mainHeading {
+  margin: -1px 0 0 0;
+  display: inline-block;
+  background: rgba(0, 0, 0, 1);
+  border: 1px solid color($brand-color lightness(+10%));
+  padding: 1em;
+  border-radius: 0 0 5px 5px;
+  border-top: none;
+  font-size: 1.75rem;
+}
+
+.brand {
+  color: color($brand-color lightness(+10%));
+  text-decoration: none;
+  padding:0;
+}
+
+.brandTxt {
+  margin-left: 10px;
+}
+
+.nav {
+  float: right;
+  background: rgba(0, 0, 0, 1);
+  padding: 0;
+  margin: -1px 0 0 0;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid color($brand-color lightness(+10%));
+  border-top: none;
+  font-size: 1rem;
+  padding: 0.85em 0.5em;
+}
+
+.banner {
+  text-align: center;
+}
+
+.bannerTitle {
+  margin: 0;
+  padding: 10px;
+  font-weight: normal;
+  font-size: 4em;
+  line-height: 1em;
+}
+
+.bannerDesc {
+  padding: 0;
+  color: rgba(255, 255, 255, .5);
+  font-size: 1.25em;
+  margin: 0;
+}
